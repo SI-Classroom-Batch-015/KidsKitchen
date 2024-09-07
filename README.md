@@ -1,14 +1,15 @@
 ![KidsKitchen Logo](./Kids Logo.jpg "KidsKitchen Logo")
 # KidsKitchen
 Kindern spielerisch leicht, alles zum Thema Nahrung beibringen
+
 _Die App KidsKitchen ist ein Herzensprojekt für meine Nichte, die gerade kochen lernen möchte._
 
 ## **Wer? Wie? Was?**
 Hier sollen die wichtigsten Fragen zum Projekt geklärt werden.
 
 ### Wer?
-**Für wen ist das interssant?**
-Hiermit möchte ich potenzielle Arbeit- & Auftraggeber auf mich und meine Art und Weise zu Programmieren aufmerksam machen.
+**Für wen ist das interssant:**
+* Hiermit möchte ich potenzielle Arbeit- & Auftraggeber auf mich und meine Art und Weise zu Programmieren aufmerksam machen.
 Des weiteren darf dieser Code gerne als inspiration genutzt werden, da ich nach Möglichkeit, aktuelle Technologien, grade im Bereich von Animationen nutzen möchte.
 Auch möchte ich grade Kinder & Jugendlich dazu animieren, sich bewusster mit dem Thema Nahrung auseinander zu setzen ohne dabei voreingenommen, gegenüber einer dieser Ernährungsformen zu sein.
 

@@ -15,6 +15,7 @@
 		983A17202C8B9A960067E809 /* KidsKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A171F2C8B9A960067E809 /* KidsKitchenUITests.swift */; };
 		983A17222C8B9A960067E809 /* KidsKitchenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A17212C8B9A960067E809 /* KidsKitchenUITestsLaunchTests.swift */; };
 		983A172F2C8B9ADE0067E809 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 983A172E2C8B9ADE0067E809 /* README.md */; };
+		983A17312C8BEFA20067E809 /* Kids Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 983A17302C8BEFA20067E809 /* Kids Logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		983A171F2C8B9A960067E809 /* KidsKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsKitchenUITests.swift; sourceTree = "<group>"; };
 		983A17212C8B9A960067E809 /* KidsKitchenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsKitchenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		983A172E2C8B9ADE0067E809 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		983A17302C8BEFA20067E809 /* Kids Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Kids Logo.jpg"; path = "../Kids Logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				983A172E2C8B9ADE0067E809 /* README.md */,
+				983A17302C8BEFA20067E809 /* Kids Logo.jpg */,
 				983A17032C8B9A950067E809 /* KidsKitchen */,
 				983A17142C8B9A960067E809 /* KidsKitchenTests */,
 				983A171E2C8B9A960067E809 /* KidsKitchenUITests */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983A17312C8BEFA20067E809 /* Kids Logo.jpg in Resources */,
 				983A172F2C8B9ADE0067E809 /* README.md in Resources */,
 				983A170C2C8B9A960067E809 /* Preview Assets.xcassets in Resources */,
 				983A17092C8B9A960067E809 /* Assets.xcassets in Resources */,
