@@ -2,6 +2,7 @@
 
 ---
 # <span style="color:red;">KidsKitchen</span>
+<span style="color:red;">KidsKitchen</span>
 Kindern spielerisch leicht, alles zum Thema Nahrung beibringen
 
 > _Die App KidsKitchen ist ein Herzensprojekt für meine Nichte, die gerade kochen lernen möchte._
