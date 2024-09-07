@@ -1,4 +1,4 @@
-![KidsKitchen Logo](https://github.com/JoschaAmaniGaber/KidsKitchen/blob/main/Kids%20Logo.jpg "KidsKitchen Logo")
+![KidsKitchen Logo](/Kids%20Logo.jpg "KidsKitchen Logo")
 # KidsKitchen
 Kindern spielerisch leicht, alles zum Thema Nahrung beibringen
 
@@ -31,7 +31,7 @@ In der ersten Phase werde ich mich den Anforderungen entsprechend mit folgendem 
 - **Sheet & List** für das UserProfil
 
 ## **Anforderungen**
-![Anforderungen Abschlussprojekt Modul 4.jpg](https://github.com/JoschaAmaniGaber/KidsKitchen/blob/main/Anforderungen%20Abschlussprojekt%20Modul%204.jpg?raw=true "Abschlussprojekt Modul 4.jpg")
+![Anforderungen Abschlussprojekt Modul 4.jpg](/Anforderungen%20Abschlussprojekt%20Modul%204.jpg "Abschlussprojekt Modul 4.jpg")
 
 ## **Umsetzung || Phase 1 || MainApp Funktionen**
 
