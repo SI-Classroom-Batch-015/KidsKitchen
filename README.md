@@ -1,12 +1,13 @@
 ![KidsKitchen Logo](/images/Kids%20Logo.jpg "KidsKitchen Logo")
-# KidsKitchen
+
+---
+# <span style="color:red;">KidsKitchen</span>
 Kindern spielerisch leicht, alles zum Thema Nahrung beibringen
 
 > _Die App KidsKitchen ist ein Herzensprojekt für meine Nichte, die gerade kochen lernen möchte._
 ---
 ## **Wer? Wie? Was?**
----
-Hier sollen die wichtigsten Fragen zum Projekt geklärt werden.
+Das Projekt **KidsKitchen** im groben Zusammengefasst
 
 ### Wer?
 #### Für wen ist das interssant:
@@ -88,135 +89,6 @@ Damit ich das Wasserfall Prinzip beim Programmieren vermeide, unterteile ich den
 Um auch mit der Zeit zu gehen, werde ich für meinen PersistentStore SwiftData verwenden. Da ich erst in einer späteren Version die Möglichkeit einbinden werde, zwischen Android & Apple Geräten zu Switchen. Bleibt es auch vorerst dabei.
 > möglicherweise, kann ich hier auch **AppleServer** verwenden
 
-- [x] Meal
-- [ ] MealCategory _enum_?
-- [ ] MealTyp _enum_?
-- [ ] DietForm
-- [ ] Ingredient
-- [ ] PreperationStep
-- [ ] Level _enum_
-- [ ] Season _enum_
-
-###### import SwiftData
-```swift
-import SwiftData
-```
-> _In den Beiträgen 👉 [Meet SwiftData](https://developer.apple.com/wwdc23/10187) & 👉 [Migrate to SwiftData](https://developer.apple.com/wwdc23/10189) kannst du mehr darüber erfahren. Beide Beiträge sind von der WWDC23._
-
-###### Meal
-```swift
-@Model
-class Meal {
-	let id: String
-    let name: String
-    var isFavorite: Bool = false
-    let imageURL: String
-    let details: String
-    let duration: Int // in Minutes
-    let mealCategory: MealCategory
-    let level: Level
-    let mealTyp: MealTyp
-    let dietForms: [DietForm]
-    let season: [Season]
-    let ingredients: [Ingredient]
-    let preperation: [PreperationStep]
-    
-}
-
-```
--
-###### MealCategory
-```swift
-@Model
-class {
-	let id: String
-    let name: String
-    var isFavorite: Bool = false
-    let imageURL: String
-    let details: String
-    let dietForms: [DietForm]
-    let ingredients: [Ingredient]
-}
-```
--
-###### MealTyp
-```swift
-@Model
-class {
-	let id: String
-    let name: String
-    var isFavorite: Bool = false
-    let imageURL: String
-    let details: String
-    let dietForms: [DietForm]
-    let ingredients: [Ingredient]
-}
-```
--
-###### DietForm
-```swift
-@Model
-class {
-	let id: String
-    let name: String
-    var isFavorite: Bool = false
-    let imageURL: String
-    let details: String
-    
-}
-```
--
-###### Ingredient
-```swift
-@Model
-class {
-	let id: String
-    let name: String
-    var isFavorite: Bool = false
-    let imageURL: String
-    let details: String
-    
-}
-```
--
-###### PreparationStep
-```swift
-@Model
-class {
-	let id: String
-    let name: String
-    var isCompleted: Bool = false
-    let imageURL: String
-    let details: String  
-}
-```
--
-###### Level
-```swift
-@Model
-class {
-	let id: String
-    let name: String
-    var isCompleted: Bool = false
-    let imageURL: String
-    let details: String
-    
-}
-```
--
-###### Season
-```swift
-@Model
-class {
-	let id: String
-    let name: String
-    var isNow: Bool = false
-    let imageURL: String
-    let details: String
-    
-}
-```
--
 ---
 #### **Umsetzung || Phase 2 || Erweiterungen**
 
@@ -270,3 +142,136 @@ Bier & Wein erklärt
 ##### ab 18 Edition
 Schnapps & Cocktails erklärt
 Möglichkeit zum anbinden an andere Apps 😉
+
+## CodeExamples
+### Model(s)
+
+- [x] Meal
+- [ ] MealCategory 
+- [ ] MealTyp 
+- [ ] DietForm
+- [ ] Ingredient
+- [ ] PreperationStep
+- [ ] Level 
+- [ ] Season
+
+###### import SwiftData
+```swift
+import SwiftData
+```
+> _In den Beiträgen 👉 [Meet SwiftData](https://developer.apple.com/wwdc23/10187) & 👉 [Migrate to SwiftData](https://developer.apple.com/wwdc23/10189) kannst du mehr darüber erfahren. Beide Beiträge sind von der WWDC23._
+
+#### Meal
+```swift
+@Model
+class Meal {
+	let id: String
+    let name: String
+    var isFavorite: Bool = false
+    let imageURL: String
+    let details: String
+    let duration: Int // in Minutes
+    let mealCategory: MealCategory
+    let level: Level
+    let mealTyp: MealTyp
+    let dietForms: [DietForm]
+    let season: [Season]
+    let ingredients: [Ingredient]
+    let preperation: [PreperationStep]
+    
+}
+
+```
+-
+#### MealCategory
+```swift
+@Model
+class {
+	let id: String
+    let name: String
+    var isFavorite: Bool = false
+    let imageURL: String
+    let details: String
+    let dietForms: [DietForm]
+    let ingredients: [Ingredient]
+}
+```
+-
+#### MealTyp
+```swift
+@Model
+class {
+	let id: String
+    let name: String
+    var isFavorite: Bool = false
+    let imageURL: String
+    let details: String
+    let dietForms: [DietForm]
+    let ingredients: [Ingredient]
+}
+```
+-
+#### DietForm
+```swift
+@Model
+class {
+	let id: String
+    let name: String
+    var isFavorite: Bool = false
+    let imageURL: String
+    let details: String
+    
+}
+```
+-
+#### Ingredient
+```swift
+@Model
+class {
+	let id: String
+    let name: String
+    var isFavorite: Bool = false
+    let imageURL: String
+    let details: String
+    
+}
+```
+-
+#### PreparationStep
+```swift
+@Model
+class {
+	let id: String
+    let name: String
+    var isCompleted: Bool = false
+    let imageURL: String
+    let details: String  
+}
+```
+-
+#### Level
+```swift
+@Model
+class {
+	let id: String
+    let name: String
+    var isCompleted: Bool = false
+    let imageURL: String
+    let details: String
+    
+}
+```
+-
+#### Season
+```swift
+@Model
+class {
+	let id: String
+    let name: String
+    var isNow: Bool = false
+    let imageURL: String
+    let details: String
+    
+}
+```
+-
