@@ -37,7 +37,7 @@ In der ersten Phase werde ich mich den Anforderungen entsprechend mit folgendem 
 | Theme | Anwendung im Detail |
 | --------------| --------------|
 | [MVVM](https://de.wikipedia.org/wiki/Model_View_ViewModel) | Als DesignPattern verwende ich Model View ViewModel. Auf diese Weise lassen sich meine Daten, von der Funktionälität und den angezeigten Screens trennen. |
-| SwiftData **M** | Verwende ich in diesem zusammenhang zum Speichern der Daten. Dies ist Apples aktuelle Technologie, welche sich auch über CloudKit verbinden lässt, um so zwischen allen Geräten zu Synchronisieren |
+| SwiftData[^2] | Verwende ich in diesem zusammenhang zum Speichern der Daten. Dies ist Apples aktuelle Technologie, welche sich auch über CloudKit verbinden lässt, um so zwischen allen Geräten zu Synchronisieren |
 | NavigationStack & -Link | Um vom SignIn zum HomeScreen zu kommen |
 | ForEach | Benutze ich für die MealList. Es gibt noch weitere Anwendungsbereich _z.Bsp. bei den Ernährungsformen_|
 | Sheet & List | Verwende ich für das UserProfile |
