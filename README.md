@@ -1,4 +1,10 @@
 ![KidsKitchen Logo](/images/Kids%20Logo.jpg "KidsKitchen Logo")
+![2024](<https://img.shields.io/badge/2024-white?style=flat>)
+![Xcode](<https://img.shields.io/badge/Xcode-blue?style=flat&logo=xcode&logoColor=white>)
+![iOS 17.0](<https://img.shields.io/badge/iOS-17.0-blue?style=flat&logo=apple&logoColor=white>)
+![Swift](<https://img.shields.io/badge/swift-orange?style=flat&logo=swift&logoColor=white>)
+![SwiftUI](<https://img.shields.io/badge/SwiftUI-blue?style=flat&logo=swift&logoColor=white>)
+![MVVM](<https://img.shields.io/badge/MVVM-blue?style=flat>)
 
 ---
 # KidsKitchen
