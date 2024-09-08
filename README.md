@@ -1,13 +1,14 @@
 ![KidsKitchen Logo](/images/Kids%20Logo.jpg "KidsKitchen Logo")
+
+---
+# KidsKitchen
 ![2024](<https://img.shields.io/badge/2024-white?style=flat>)
-![Xcode](<https://img.shields.io/badge/Xcode-blue?style=flat&logo=xcode&logoColor=white>)
+![Xcode](<https://img.shields.io/badge/Xcode-blue?style=flat&logo=xcode&logoColor=white> "Xcode")
 ![iOS 17.0](<https://img.shields.io/badge/iOS-17.0-blue?style=flat&logo=apple&logoColor=white>)
 ![Swift](<https://img.shields.io/badge/swift-orange?style=flat&logo=swift&logoColor=white>)
 ![SwiftUI](<https://img.shields.io/badge/SwiftUI-blue?style=flat&logo=swift&logoColor=white>)
 ![MVVM](<https://img.shields.io/badge/MVVM-blue?style=flat>)
 
----
-# KidsKitchen
 Der Gedanke für die App **KidsKitchen** ist mir im Gespräch mit meiner Nichte gekommen. Sie möchte gerne kochen lernen und hat mich gefragt, ob ich eine App kenne, mit der sie das lernen kann. Auf der Suche nach einer App, in der Kinder kochen lernen, bin ich leider nicht fündig geworden.
 Bei der Überlegung selbst eine App zu schreiben, ist mir aufgefallen, wie wenig ich eigentlich selbst über das Thema Ernährung weiß. Daraus resultierend, beschäftige ich mich jetzt auch selbst ein wenig mehr mit dem Thema Ernährung.
 
