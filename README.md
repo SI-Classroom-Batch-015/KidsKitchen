@@ -168,7 +168,7 @@ Der Screen wird in einen **_NavigationStack_** gebettet werden. Infolge dessen k
 ---
 #### Repository
 - hier stellt sich zur Zeit noch die Frage, ob ich selbst eine API(?) oder möglicherweise auch einen Server bauen muss, da noch nicht sichergestellt ist, woher ich meine Daten bekomme.
-  > _stand 7. Sept.: habe ich 3 Websites, die sehr schönen Inhalt bieten angeschrieben oder angerufen, sollten sich hier neuigkeiten ereignen, werde ich dies hier selbstverständlich Updaten_
+> _stand 7. Sept.: habe ich 3 Websites, die sehr schönen Inhalt bieten angeschrieben oder angerufen, sollten sich hier neuigkeiten ereignen, werde ich dies hier selbstverständlich Updaten_
 
 ---
 #### Model(s)
@@ -184,6 +184,7 @@ Ab hier lässt es sich leicht Feature Basiert zu arbeiten. Da Ich bis jetzt auch
 - Da es sich um eine Kinder App handelt, möchte ich gleich schon beim einloggen auf relevante Dinge wie Anonymität & Sicherheit im Internet eingehen. _grade im Bezug auch zu den folgenden Informationen_
 - Des weiteren werden beim SignUp auch User Informationen, wie bevorzugte Ernährungsweise etc abgefragt, sodass gleich ausschliesslich relevante Gerichte von der **_API_** geladen werden.
 
+---
 #### OnBoarding einbauen & UserProfil erweitern
 - Hier sollen gleich die ersten wirklich wichtigen Punkte beim Kochen erklärt werden:
     - Hygiene
@@ -194,6 +195,7 @@ Ab hier lässt es sich leicht Feature Basiert zu arbeiten. Da Ich bis jetzt auch
 um die Erfolgschancen zu erhöhen, dass das OnBoarding auch wirklich verfolgt wird, werde ich hier mit Apples neuer TextAnimation arbeiten, sodass der Text ca in Lesegeschwindigkeit angezeigt wird
 _gif Datei mit einem Beispiel dafür folgt_
 
+---
 #### Home & UserProfil erweitern und Quiz mit VM einbauen
 - Um sicherzustellen, das der OnBoarding Teil auch _wirklich_ verstanden wurde, werden im Home Screen zu beginn nur 3 Gerichte angezeigt.
 - Weitere Gerichte kann man nun dem Beantworten von Fragen zu den Themen aus dem OnBoarding _**Freischalten**_
@@ -201,6 +203,7 @@ _gif Datei mit einem Beispiel dafür folgt_
 - das UserProfilVM wird um den Integer userPoints erweitert
 - Quiz hat verschiedene Punkte stände und Kategorien
 
+---
 #### Nährwerte mit einbinden
 hier gibt es einiges an Funktionsumfang zum einbinden. Das sind unter anderem:
 - Repository bauen, um Daten zu Nährwerten etc zu erhalten
@@ -208,6 +211,7 @@ hier gibt es einiges an Funktionsumfang zum einbinden. Das sind unter anderem:
 - Auflisten der Werte
 - Kritische Bereich markieren
 - _hier bestet auch die Möglichkeit, zum anbinden der FitnessDaten ggf in Phase 3_
+
 ---
 ### _mögliche_ BONUS Features
 
@@ -247,6 +251,7 @@ Möglichkeit zum anbinden an andere Apps 😉
 import SwiftData
 ```
 
+---
 #### Meal
 ```swift
 @Model
@@ -268,7 +273,8 @@ class Meal {
 }
 
 ```
--
+
+---
 #### MealCategory
 ```swift
 @Model
@@ -282,7 +288,8 @@ class {
     let ingredients: [Ingredient]
 }
 ```
--
+
+---
 #### MealTyp
 ```swift
 @Model
@@ -296,7 +303,8 @@ class {
     let ingredients: [Ingredient]
 }
 ```
--
+
+---
 #### DietForm
 ```swift
 @Model
@@ -309,7 +317,8 @@ class {
     
 }
 ```
--
+
+---
 #### Ingredient
 ```swift
 @Model
@@ -322,7 +331,8 @@ class {
     var nutritionInfo: NutritionInfo
 }
 ```
--
+
+---
 #### PreparationStep
 ```swift
 @Model
@@ -335,7 +345,7 @@ class {
 }
 ```
 
--
+---
 #### Level
 ```swift
 @Model
@@ -348,7 +358,8 @@ class {
     
 }
 ```
--
+
+---
 #### Season
 ```swift
 @Model
@@ -361,8 +372,8 @@ class {
     
 }
 ```
--
--
+
+---
 #### Nutrition
 ```swift
 @Model
@@ -376,3 +387,5 @@ class NutritionInfo {
     
 }
 ```
+
+---
