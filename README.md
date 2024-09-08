@@ -149,8 +149,7 @@ Der Screen wird in einen **_NavigationStack_** gebettet werden. Infolge dessen k
 - Jedes dieser Gerichte wird _klickbar_ sein, woraufhin man zum **_MealDetail_** gelangt. Hierfür werde ich einen Überblendungseffekt effekt nutzen, den ich aus de Buch [SwiftUI Animations Mastery[^1]](https://www.bigmountainstudio.com/animations/423bv) von Mark Moeykens habe.
 - Des weiteren wird es ein User Profile geben, welches über einen Sheet nach oben fährt. Der Button dafür, wird in die toolbar des NavigationStack _vom SignIn_ Bereich kommen.
 
-[^1]: **dies ist ein Affliate Link. Es handelt sich um eine bezahlte Partnerschaft.**
-> _unabhängig davon, kann ich das Buch sehr empfehlen_
+[^1]: **dies ist ein Affliate Link. Es handelt sich um eine bezahlte Partnerschaft.** _unabhängig davon, kann ich das Buch sehr empfehlen_
 
 ---
 #### UserProfile inklusive VM
