@@ -6,8 +6,9 @@ Der Gedanke für die App **KidsKitchen** ist mir im Gespräch mit meiner Nichte 
 Bei der Überlegung selbst eine App zu schreiben, ist mir aufgefallen, wie wenig ich eigentlich selbst über das Thema Ernährung weiß. Daraus resultierend, beschäftige ich mich jetzt auch selbst ein wenig mehr mit dem Thema Ernährung.
 
 ---
+
+![Sesamstraße](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sesamstrasse_Logo.svg/1920px-Sesamstrasse_Logo.svg.png)
 ## Wer? Wie? Was?
-![Sesamstraße](https://images.app.goo.gl/QEpyJFQHRR3Yrgnd9)
 Das Projekt **KidsKitchen** im groben Zusammengefasst.
 
 ---
