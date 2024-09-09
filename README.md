@@ -77,6 +77,7 @@ Auch die Eltern dürfen dabei nicht zu kurz kommen und so können sie sich den r
 
 [Gaumenfreundin](https://www.gaumenfreundin.de)
 > Auch eine super Website für Kinder
+> Super Unterteilung für die Suchkriterien
 > hier gefällt mir auch sehr, das es verschiedene Ernährungstypen gibt und diese sehr schön Erklärt sind.
 > der weitreichendenWissenschatz ist beieindruckend
 
@@ -88,10 +89,38 @@ Auch die Eltern dürfen dabei nicht zu kurz kommen und so können sie sich den r
 > jedoch sind leider immer Affiliate Links zu weiterführenden Seiten, die man nicht vorher einsehen kann.
 > auch gibt es keinen Preisvergleich oder die Möglichkeit auf Bio Produkte oder die Links funktionieren garnicht.
 
+_Eine Keto API habe ich auch gefunden weiteres folgt_
+
 ---
 ##### Nährwerte
 [Nähwert Rechner](https://www.naehrwertrechner.de)
 > Beim überfliegen, bieten sich hier beeindruckende Möglichkeiten.
+
+---
+##### weitere Nützliche Websites & API's
+[ZestfulData](https://zestfuldata.com/?ref=public_apis)
+> Super um Zutaten in seine Einzelteile zu zersetzen _als Beispiel: 2 Teelöffel - Honig_
+
+[Spoonacular API](https://spoonacular.com/food-api)
+> Viel Rezepte und weiteres
+> Nicht einschätzbare kosten 🛑
+> einige Apps basieren schon hierauf
+> große Auswahl
+> Tolle Optik möglich
+
+[OpenFoodFacts](https://world.openfoodfacts.org/data?ref=public_apis) -> **Suchen hilfe**
+> Free API
+
+[OpenFoodFacts Swift](https://github.com/openfoodfacts/openfoodfacts-swift)
+> Nur Teile von OpenFoodFacts sichtbar
+
+[Heroku ???](https://www.heroku.com/home) **???**
+> schon öffters gesehen, wozu?
+
+[Edamame](https://developer.edamam.com/edamam-recipe-api)
+> 10.000 Freie API Calls pro Monat
+> riesige Auswahl
+> up to 100 Results per Call 
 
 ---
 ## Umsetzung 
