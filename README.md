@@ -63,64 +63,65 @@ Es handelt sich hierbei um eine **App für Kinder**. Mit dieser App dürfen Kind
 Auch die Eltern dürfen dabei nicht zu kurz kommen und so können sie sich den richtigen Umgang mit Kindern und essen, zusammen mit ihren Kindern aneignen.
 
 ---
-> **8. September 2024:** Auf meiner Suche, nach geeigneten Websites, bin ich unter anderem auf die folgenden Websites gestoßen:
+
+**8. September 2024:** Auf meiner Suche, nach geeigneten Websites, bin ich unter anderem auf die folgenden Websites gestoßen:
 
 #### Rezepte & Wissen
 
 ---
 ##### Kinder
 [Familienküche](https://familienkueche.de/rezepte/)
-> Reich an Wissen für das Kochen mit Kindern.
+- Reich an Wissen für das Kochen mit Kindern.
 
 [Geolino - Rezepte für Kinder](https://www.geo.de/geolino/kinderrezepte/)
-> Tolle Website für Kinder. Großer Wissenschatz
+- Tolle Website für Kinder. Großer Wissenschatz
 
 [Gaumenfreundin](https://www.gaumenfreundin.de)
-> Auch eine super Website für Kinder
-> Super Unterteilung für die Suchkriterien
-> hier gefällt mir auch sehr, das es verschiedene Ernährungstypen gibt und diese sehr schön Erklärt sind.
-> der weitreichendenWissenschatz ist beieindruckend
+- Auch eine super Website für Kinder
+- Super Unterteilung für die Suchkriterien
+- hier gefällt mir auch sehr, das es verschiedene Ernährungstypen gibt und diese sehr schön Erklärt sind.
+- der weitreichendenWissenschatz ist beieindruckend
 
 ---
 ##### Keto
 [Koch Keto](https://kochketo.de/keto-rezepte/)
-> sehr viel Wissen, bezüglich Ketogener Ernährumg.
-> hat einen Eingebauten Rechner.
-> jedoch sind leider immer Affiliate Links zu weiterführenden Seiten, die man nicht vorher einsehen kann.
-> auch gibt es keinen Preisvergleich oder die Möglichkeit auf Bio Produkte oder die Links funktionieren garnicht.
+- sehr viel Wissen, bezüglich Ketogener Ernährumg.
+- hat einen Eingebauten Rechner.
+- jedoch sind leider immer Affiliate Links zu weiterführenden Seiten, die man nicht vorher einsehen kann.
+- auch gibt es keinen Preisvergleich oder die Möglichkeit auf Bio Produkte oder die Links funktionieren garnicht.
 
 _Eine Keto API habe ich auch gefunden weiteres folgt_
 
 ---
 ##### Nährwerte
 [Nähwert Rechner](https://www.naehrwertrechner.de)
-> Beim überfliegen, bieten sich hier beeindruckende Möglichkeiten.
+- Beim überfliegen, bieten sich hier beeindruckende Möglichkeiten.
 
 ---
 ##### weitere Nützliche Websites & API's
 [ZestfulData](https://zestfuldata.com/?ref=public_apis)
-> Super um Zutaten in seine Einzelteile zu zersetzen _als Beispiel: 2 Teelöffel - Honig_
+- Super um Zutaten in seine Einzelteile zu zersetzen _als Beispiel: 2 Teelöffel - Honig_
 
 [Spoonacular API](https://spoonacular.com/food-api)
-> Viel Rezepte und weiteres
-> Nicht einschätzbare kosten 🛑
-> einige Apps basieren schon hierauf
-> große Auswahl
-> Tolle Optik möglich
+- Viel Rezepte und weiteres
+- Nicht einschätzbare kosten 🛑
+- einige Apps basieren schon hierauf
+- große Auswahl
+- Tolle Optik möglich
 
 [OpenFoodFacts](https://world.openfoodfacts.org/data?ref=public_apis) -> **Suchen hilfe**
-> Free API
+- Free API
 
 [OpenFoodFacts Swift](https://github.com/openfoodfacts/openfoodfacts-swift)
-> Nur Teile von OpenFoodFacts sichtbar
+- Nur Teile von OpenFoodFacts sichtbar
 
 [Heroku ???](https://www.heroku.com/home) **???**
-> schon öffters gesehen, wozu?
+- schon öffters gesehen, wozu?
 
 [Edamame](https://developer.edamam.com/edamam-recipe-api)
-> 10.000 Freie API Calls pro Monat
-> riesige Auswahl
-> up to 100 Results per Call 
+- 10.000 Freie API Calls pro Monat
+- riesige Auswahl
+- up to 100 Results per Call 
 
 ---
 ## Umsetzung 
@@ -281,7 +282,6 @@ Möglichkeit zum anbinden an andere Apps 😉
 - [ ] Level 
 - [ ] Season
 - [ ] Nutrition
-- [ ] ```
 
 ```swift
 import SwiftData
