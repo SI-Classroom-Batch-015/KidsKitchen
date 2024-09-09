@@ -134,7 +134,15 @@ _Eine Keto API habe ich auch gefunden weiteres folgt_
 [Edamame](https://developer.edamam.com/edamam-recipe-api)
 - 10.000 Freie API Calls pro Monat
 - riesige Auswahl
-- up to 100 Results per Call 
+- up to 100 Results per Call #
+
+  [TheMealDB](https://www.themealdb.com/api.php)
+  > Viele Gerichte
+  > Viele Ingredients mit Bildern
+  > mit Angaben zur Seite
+  > teilweise mit Video
+  > leider nur in Englisch
+  > Keine Nutritions
 
 ---
 ## Umsetzung 
