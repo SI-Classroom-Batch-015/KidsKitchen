@@ -52,9 +52,22 @@ In der ersten Phase werde ich mich den Anforderungen entsprechend mit folgendem 
 [^2]: In den Beiträgen 👉 [Meet SwiftData](https://developer.apple.com/wwdc23/10187) & 👉 [Migrate to SwiftData](https://developer.apple.com/wwdc23/10189) kannst du mehr darüber erfahren. Beide Beiträge sind von der WWDC23.
 
 ---
-#### **Anforderungen**
-![Anforderungen Abschlussprojekt Modul 4.jpg](/images/Anforderungen%20Abschlussprojekt%20Modul%204.jpg "Abschlussprojekt Modul 4.jpg")
-Dies sind die Anforderungen an mein Abschluss Projekt. 
+#### Dies sind die Anforderungen an mein Abschluss Projekt. 
+##### Formale Kriterien
+- mindestens 3 Screens
+- vertikale und horizontale Navigation: _TabView, Sheet, Link ..._
+- Dynamische Daten: _Liste oder ForEach_
+- Datenpersistrieren _CoreData / Firebase / SwiftData_
+- API Anbindung
+- MVVM
+
+  ---
+##### Weitere Anforderungen
+- Code selbst erarbeitet und verstanden
+- Originelle Idee
+- Sauberer Code
+- Muss vorzeigbar sein _Crashes vermeiden_
+- Ausblick erwünscht _muss nicht fertig sein_
 
 ---
 ### Was?
