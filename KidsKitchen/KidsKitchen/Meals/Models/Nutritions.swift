@@ -10,11 +10,11 @@ import Foundation
 struct Nutritions: Identifiable, Codable {
     var id = UUID()
     let calories: Int
-    let carbohydrates: Int
+    let carbs: Int
     let proteins: Int
     let fat: Int
 }
 
 extension Nutritions {
-    static let zero: Nutritions = Nutritions(calories: 0, carbohydrates: 0, proteins: 0, fat: 0)
+    static let zero: Nutritions = Nutritions(calories: 0, carbs: 0, proteins: 0, fat: 0)
 }

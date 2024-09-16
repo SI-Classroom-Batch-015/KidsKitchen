@@ -19,27 +19,56 @@ struct MealDetail: View {
             .frame(width: .infinity, height: 300)
             .tabViewStyle(.page)
             
+            // Meal Name
             Text(meal.name)
                 .font(.title2)
                 .fontWidth(.expanded)
                 .fontWeight(.semibold)
                 .padding(.horizontal)
                 .shadow(color: .jSeco, radius: 8, y: 8)
-            ScrollView(.horizontal) {
+            
+            // MARK: Meal Nutrition
+            HStack {
+                VStack {
+                    Text("\(meal.nutritions.calories)")
+                    Text("kcal")
+                }
+                Spacer()
+                VStack {
+                    Text("\(meal.nutritions.calories)")
+                    Text("carbs")
+                }
+                Spacer()
+                VStack {
+                    Text("\(meal.nutritions.calories)")
+                    Text("protein")
+                }
+                Spacer()
+                VStack {
+                    Text("\(meal.nutritions.calories)")
+                    Text("fat")
+                }
+            }
+            .padding(.top)
+            .padding(.horizontal)
+            
+            // MARK: - Meal Ingredients
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
-                    ForEach(1 ..< 15) {_ in
-                        Image(meal.imageURL)
-                            .resizable()
-                        
-                            .scaledToFit()
-                        
-                            .clipShape(.circle)
+                    ForEach(1 ..< 21) {i in
+                        ZStack {
+                            Image("food\(i)")
+                                .resizable()
+                                .scaledToFit()
+                                .clipShape(.circle)
+                                .frame(width: 88, height: 88)
+                                
+                        }
                     }
                 }
-                .frame(height: 88)
+                .frame(height: 128)
                     
             }
-            
             .scrollTargetBehavior(.paging)
             Spacer()
         }

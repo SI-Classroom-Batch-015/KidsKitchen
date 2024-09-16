@@ -12,6 +12,8 @@ class Meal {
     var id = UUID()
     var name: String
     var imageURL: String
+    var isFavorite: Bool = false
+    var timesCooked: Int = 0
     var duration: Int
     var ingredients: [Ingredient]
     var nutritions: Nutritions
