@@ -35,17 +35,17 @@ struct MealDetail: View {
                 }
                 Spacer()
                 VStack {
-                    Text("\(meal.nutritions.calories)")
+                    Text("\(meal.nutritions.carbs)")
                     Text("carbs")
                 }
                 Spacer()
                 VStack {
-                    Text("\(meal.nutritions.calories)")
+                    Text("\(meal.nutritions.protein)")
                     Text("protein")
                 }
                 Spacer()
                 VStack {
-                    Text("\(meal.nutritions.calories)")
+                    Text("\(meal.nutritions.fat)")
                     Text("fat")
                 }
             }
