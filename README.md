@@ -4,7 +4,7 @@
 # KidsKitchen
 ![2024](<https://img.shields.io/badge/2024-white?style=flat>)
 ![Xcode](<https://img.shields.io/badge/Xcode-blue?style=flat&logo=xcode&logoColor=white> "Xcode")
-![iOS 17.0](<https://img.shields.io/badge/iOS-17.0-blue?style=flat&logo=apple&logoColor=white>)
+![iOS 18.0](<https://img.shields.io/badge/iOS-18.0-blue?style=flat&logo=apple&logoColor=white>)
 ![Swift](<https://img.shields.io/badge/swift-orange?style=flat&logo=swift&logoColor=white>)
 ![SwiftUI](<https://img.shields.io/badge/SwiftUI-blue?style=flat&logo=swift&logoColor=white>)
 ![MVVM](<https://img.shields.io/badge/MVVM-blue?style=flat>)
@@ -89,12 +89,6 @@ Auch die Eltern dürfen dabei nicht zu kurz kommen und so können sie sich den r
 [Geolino - Rezepte für Kinder](https://www.geo.de/geolino/kinderrezepte/)
 - Tolle Website für Kinder. Großer Wissenschatz
 
-[Gaumenfreundin](https://www.gaumenfreundin.de)
-- Auch eine super Website für Kinder
-- Super Unterteilung für die Suchkriterien
-- hier gefällt mir auch sehr, das es verschiedene Ernährungstypen gibt und diese sehr schön Erklärt sind.
-- der weitreichendenWissenschatz ist beieindruckend
-
 ---
 ##### Keto
 [Koch Keto](https://kochketo.de/keto-rezepte/)
@@ -136,13 +130,13 @@ _Eine Keto API habe ich auch gefunden weiteres folgt_
 - riesige Auswahl
 - up to 100 Results per Call #
 
-  [TheMealDB](https://www.themealdb.com/api.php)
-  > Viele Gerichte
-  > Viele Ingredients mit Bildern
-  > mit Angaben zur Seite
-  > teilweise mit Video
-  > leider nur in Englisch
-  > Keine Nutritions
+[TheMealDB](https://www.themealdb.com/api.php)
+> Viele Gerichte
+> Viele Ingredients mit Bildern
+> mit Angaben zur Seite
+> teilweise mit Video
+> leider nur in Englisch
+> Keine Nutritions
 
 ---
 ## Umsetzung 

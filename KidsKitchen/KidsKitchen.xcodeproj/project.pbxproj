@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		983A17052C8B9A950067E809 /* KidsKitchenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A17042C8B9A950067E809 /* KidsKitchenApp.swift */; };
-		983A17072C8B9A950067E809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A17062C8B9A950067E809 /* ContentView.swift */; };
 		983A17092C8B9A960067E809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983A17082C8B9A960067E809 /* Assets.xcassets */; };
 		983A170C2C8B9A960067E809 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983A170B2C8B9A960067E809 /* Preview Assets.xcassets */; };
 		983A17162C8B9A960067E809 /* KidsKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A17152C8B9A960067E809 /* KidsKitchenTests.swift */; };
 		983A17202C8B9A960067E809 /* KidsKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A171F2C8B9A960067E809 /* KidsKitchenUITests.swift */; };
 		983A17222C8B9A960067E809 /* KidsKitchenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A17212C8B9A960067E809 /* KidsKitchenUITestsLaunchTests.swift */; };
 		983A172F2C8B9ADE0067E809 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 983A172E2C8B9ADE0067E809 /* README.md */; };
+		989C7E9A2C99321900DC2253 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989C7E972C99321900DC2253 /* ContentView.swift */; };
+		989C7E9B2C99321900DC2253 /* KidsKitchenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989C7E982C99321900DC2253 /* KidsKitchenApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,6 @@
 
 /* Begin PBXFileReference section */
 		983A17012C8B9A950067E809 /* KidsKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		983A17042C8B9A950067E809 /* KidsKitchenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsKitchenApp.swift; sourceTree = "<group>"; };
-		983A17062C8B9A950067E809 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		983A17082C8B9A960067E809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983A170B2C8B9A960067E809 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		983A17112C8B9A960067E809 /* KidsKitchenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsKitchenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +44,13 @@
 		983A171F2C8B9A960067E809 /* KidsKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsKitchenUITests.swift; sourceTree = "<group>"; };
 		983A17212C8B9A960067E809 /* KidsKitchenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsKitchenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		983A172E2C8B9ADE0067E809 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		989C7E972C99321900DC2253 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		989C7E982C99321900DC2253 /* KidsKitchenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsKitchenApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		989C7E9C2C9932EA00DC2253 /* Feature */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Feature; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		983A16FE2C8B9A950067E809 /* Frameworks */ = {
@@ -97,8 +101,8 @@
 		983A17032C8B9A950067E809 /* KidsKitchen */ = {
 			isa = PBXGroup;
 			children = (
-				983A17042C8B9A950067E809 /* KidsKitchenApp.swift */,
-				983A17062C8B9A950067E809 /* ContentView.swift */,
+				989C7E992C99321900DC2253 /* App */,
+				989C7E9C2C9932EA00DC2253 /* Feature */,
 				983A17082C8B9A960067E809 /* Assets.xcassets */,
 				983A170A2C8B9A960067E809 /* Preview Content */,
 			);
@@ -130,6 +134,15 @@
 			path = KidsKitchenUITests;
 			sourceTree = "<group>";
 		};
+		989C7E992C99321900DC2253 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				989C7E972C99321900DC2253 /* ContentView.swift */,
+				989C7E982C99321900DC2253 /* KidsKitchenApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +157,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				989C7E9C2C9932EA00DC2253 /* Feature */,
 			);
 			name = KidsKitchen;
 			productName = KidsKitchen;
@@ -261,8 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983A17072C8B9A950067E809 /* ContentView.swift in Sources */,
-				983A17052C8B9A950067E809 /* KidsKitchenApp.swift in Sources */,
+				989C7E9A2C99321900DC2253 /* ContentView.swift in Sources */,
+				989C7E9B2C99321900DC2253 /* KidsKitchenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
