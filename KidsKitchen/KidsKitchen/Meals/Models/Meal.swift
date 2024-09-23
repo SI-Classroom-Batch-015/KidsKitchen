@@ -19,7 +19,14 @@ class Meal {
     var nutritions: Nutritions
     var details: String
     
-    init(name: String, imageURL: String, duration: Int, ingredients: [Ingredient], nutritions: Nutritions, details: String) {
+    init(
+        name: String,
+        imageURL: String,
+        duration: Int,
+        ingredients: [Ingredient],
+        nutritions: Nutritions,
+        details: String
+    ) {
         self.name = name
         self.imageURL = imageURL
         self.duration = duration

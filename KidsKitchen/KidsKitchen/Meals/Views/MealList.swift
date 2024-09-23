@@ -231,6 +231,7 @@ struct MealList: View {
         
     }
     private var mealVM = MealVM()
+    
 }
 
 #Preview {

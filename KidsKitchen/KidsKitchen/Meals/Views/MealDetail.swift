@@ -69,7 +69,7 @@ struct MealDetail: View {
                 .frame(height: 128)
                     
             }
-            .scrollTargetBehavior(.paging)
+            .scrollTargetBehavior(.viewAligned)
             Spacer()
         }
     }

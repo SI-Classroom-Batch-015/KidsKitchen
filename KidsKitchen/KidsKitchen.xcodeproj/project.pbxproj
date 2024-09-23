@@ -14,7 +14,7 @@
 		983A17162C8B9A960067E809 /* KidsKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A17152C8B9A960067E809 /* KidsKitchenTests.swift */; };
 		983A17202C8B9A960067E809 /* KidsKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A171F2C8B9A960067E809 /* KidsKitchenUITests.swift */; };
 		983A17222C8B9A960067E809 /* KidsKitchenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A17212C8B9A960067E809 /* KidsKitchenUITestsLaunchTests.swift */; };
-		983A172F2C8B9ADE0067E809 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 983A172E2C8B9ADE0067E809 /* README.md */; };
+		9846E8272CA0829E0060499B /* MealRepositoryAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E8262CA0829E0060499B /* MealRepositoryAsync.swift */; };
 		985D3FD12C9320B5004B440B /* MealVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985D3FCD2C9320B5004B440B /* MealVM.swift */; };
 		985D3FD32C93BC49004B440B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985D3FD22C93BC49004B440B /* Repository.swift */; };
 /* End PBXBuildFile section */
@@ -47,10 +47,10 @@
 		983A171B2C8B9A960067E809 /* KidsKitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsKitchenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		983A171F2C8B9A960067E809 /* KidsKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsKitchenUITests.swift; sourceTree = "<group>"; };
 		983A17212C8B9A960067E809 /* KidsKitchenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsKitchenUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		983A172E2C8B9ADE0067E809 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9846E8262CA0829E0060499B /* MealRepositoryAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRepositoryAsync.swift; sourceTree = "<group>"; };
 		985D3FCD2C9320B5004B440B /* MealVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealVM.swift; sourceTree = "<group>"; };
 		985D3FD22C93BC49004B440B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		985D3FF32C94074D004B440B /* GetMealCategoriesWithCombine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GetMealCategoriesWithCombine.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		98C3CC5C2C9B96DE00BA9B5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -99,7 +99,7 @@
 				980469012C92091500E99A2A /* Models */,
 				980469002C9208F400E99A2A /* Views */,
 				985D3FD22C93BC49004B440B /* Repository.swift */,
-				985D3FF32C94074D004B440B /* GetMealCategoriesWithCombine.playground */,
+				9846E8262CA0829E0060499B /* MealRepositoryAsync.swift */,
 			);
 			path = Meals;
 			sourceTree = "<group>";
@@ -107,7 +107,7 @@
 		983A16F82C8B9A950067E809 = {
 			isa = PBXGroup;
 			children = (
-				983A172E2C8B9ADE0067E809 /* README.md */,
+				98C3CC5C2C9B96DE00BA9B5F /* README.md */,
 				983A17032C8B9A950067E809 /* KidsKitchen */,
 				983A17142C8B9A960067E809 /* KidsKitchenTests */,
 				983A171E2C8B9A960067E809 /* KidsKitchenUITests */,
@@ -269,7 +269,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983A172F2C8B9ADE0067E809 /* README.md in Resources */,
 				983A170C2C8B9A960067E809 /* Preview Assets.xcassets in Resources */,
 				983A17092C8B9A960067E809 /* Assets.xcassets in Resources */,
 			);
@@ -297,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983A17072C8B9A950067E809 /* ContentView.swift in Sources */,
+				9846E8272CA0829E0060499B /* MealRepositoryAsync.swift in Sources */,
 				985D3FD12C9320B5004B440B /* MealVM.swift in Sources */,
 				983A17052C8B9A950067E809 /* KidsKitchenApp.swift in Sources */,
 				985D3FD32C93BC49004B440B /* Repository.swift in Sources */,

@@ -20,6 +20,8 @@ struct ContentView: View {
                 .shadow(color: .jPrime, radius: 1, y: 3)
                 .shadow(color: .jSeco, radius: 3, y: 3)
             Spacer()
+            
+            Spacer()
             Text("Amani Dunia Apps")
                 .font(.subheadline)
                 .shadow(color: .jPrime, radius: 1, y: 3)
@@ -28,6 +30,7 @@ struct ContentView: View {
         }
         .fontWidth(.expanded)
     }
+    
 }
 
 #Preview {

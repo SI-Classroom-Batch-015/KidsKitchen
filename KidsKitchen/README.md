@@ -4,7 +4,7 @@
 # KidsKitchen
 ![2024](<https://img.shields.io/badge/2024-white?style=flat>)
 ![Xcode](<https://img.shields.io/badge/Xcode-blue?style=flat&logo=xcode&logoColor=white> "Xcode")
-![iOS 17.0](<https://img.shields.io/badge/iOS-17.0-blue?style=flat&logo=apple&logoColor=white>)
+![iOS 18.0](<https://img.shields.io/badge/iOS-18.0-blue?style=flat&logo=apple&logoColor=white>)
 ![Swift](<https://img.shields.io/badge/swift-orange?style=flat&logo=swift&logoColor=white>)
 ![SwiftUI](<https://img.shields.io/badge/SwiftUI-blue?style=flat&logo=swift&logoColor=white>)
 ![MVVM](<https://img.shields.io/badge/MVVM-blue?style=flat>)
@@ -89,12 +89,6 @@ Auch die Eltern dürfen dabei nicht zu kurz kommen und so können sie sich den r
 [Geolino - Rezepte für Kinder](https://www.geo.de/geolino/kinderrezepte/)
 - Tolle Website für Kinder. Großer Wissenschatz
 
-[Gaumenfreundin](https://www.gaumenfreundin.de)
-- Auch eine super Website für Kinder
-- Super Unterteilung für die Suchkriterien
-- hier gefällt mir auch sehr, das es verschiedene Ernährungstypen gibt und diese sehr schön Erklärt sind.
-- der weitreichendenWissenschatz ist beieindruckend
-
 ---
 ##### Keto
 [Koch Keto](https://kochketo.de/keto-rezepte/)
@@ -136,13 +130,13 @@ _Eine Keto API habe ich auch gefunden weiteres folgt_
 - riesige Auswahl
 - up to 100 Results per Call #
 
-  [TheMealDB](https://www.themealdb.com/api.php)
-  > Viele Gerichte
-  > Viele Ingredients mit Bildern
-  > mit Angaben zur Seite
-  > teilweise mit Video
-  > leider nur in Englisch
-  > Keine Nutritions
+[TheMealDB](https://www.themealdb.com/api.php)
+> Viele Gerichte
+> Viele Ingredients mit Bildern
+> mit Angaben zur Seite
+> teilweise mit Video
+> leider nur in Englisch
+> Keine Nutritions
 
 ---
 ## Umsetzung 
@@ -153,8 +147,8 @@ Wie dies geschehen soll, erfährst du weiter unten im Bereich Die Umsetzung im D
 ### Die ersten drei Phasen
 | Phase | Zielsetzung |
 | ---| ---|
-| Phase 1 | In der ersten Phase geht es darum die Hauptfunktionalität der App sicherzustellen. Hierzu gehören: 	- das einloggen eines Users		- das einzeigen von Meals in einer Liste 	-  das Anzeigen eines Meals in der Detail Ansicht. |
-| Phase 2 | In Phase zwei kommen weitere wichtige Funktionaliätäten hinzu: 	- das Auswählen von verschiedenen Ernährungsformen 	- das Auswählen verschiedener Gericht Typen 	- diese Dinge dann auch im Userprofil speichern |
+| Phase 1 | In der ersten Phase geht es darum die Hauptfunktionalität der App sicherzustellen. Hierzu gehören:     - das einloggen eines Users        - das einzeigen von Meals in einer Liste     -  das Anzeigen eines Meals in der Detail Ansicht. |
+| Phase 2 | In Phase zwei kommen weitere wichtige Funktionaliätäten hinzu:     - das Auswählen von verschiedenen Ernährungsformen     - das Auswählen verschiedener Gericht Typen     - diese Dinge dann auch im Userprofil speichern |
 | Phase 3 | In Phase drei geht es darum ein OnBoarding mit wichtigen Fakten bezüglich des Kochens mit Kindern _etc ..._. Im Zuge dessen lassen sich die Screens um ein Quiz erweitern, _je nach Arbeitsaufwand auch erst in einer späteren Phase |
 
 ---
@@ -313,7 +307,7 @@ import SwiftData
 ```swift
 @Model
 class Meal {
-	let id: String
+    let id: String
     let name: String
     var isFavorite: Bool = false
     let imageURL: String
@@ -336,7 +330,7 @@ class Meal {
 ```swift
 @Model
 class {
-	let id: String
+    let id: String
     let name: String
     var isFavorite: Bool = false
     let imageURL: String
@@ -351,7 +345,7 @@ class {
 ```swift
 @Model
 class {
-	let id: String
+    let id: String
     let name: String
     var isFavorite: Bool = false
     let imageURL: String
@@ -366,7 +360,7 @@ class {
 ```swift
 @Model
 class {
-	let id: String
+    let id: String
     let name: String
     var isFavorite: Bool = false
     let imageURL: String
@@ -380,7 +374,7 @@ class {
 ```swift
 @Model
 class {
-	let id: String
+    let id: String
     let name: String
     var isFavorite: Bool = false
     let imageURL: String
@@ -394,7 +388,7 @@ class {
 ```swift
 @Model
 class {
-	let id: String
+    let id: String
     let name: String
     var isCompleted: Bool = false
     let imageURL: String
@@ -407,7 +401,7 @@ class {
 ```swift
 @Model
 class {
-	let id: String
+    let id: String
     let name: String
     var isCompleted: Bool = false
     let imageURL: String
@@ -421,7 +415,7 @@ class {
 ```swift
 @Model
 class {
-	let id: String
+    let id: String
     let name: String
     var isNow: Bool = false
     let imageURL: String
@@ -435,7 +429,7 @@ class {
 ```swift
 @Model
 class NutritionInfo {
-	let id: String
+    let id: String
     let ingridient: Ingredient
     var fat: Int
     var saturatedFat: Int
